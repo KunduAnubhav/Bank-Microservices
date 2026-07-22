@@ -16,12 +16,12 @@ spring:
        server:
          #native: 
            #search-locations: classpath:/config
-         git: 
-          uri: "https://github.com/KunduAnubhav/anubhav-config.git"
-          default-label: main
-          timeout: 10
-          clone-on-start: true
-          force-pull: true
+        git: 
+         uri: "https://github.com/KunduAnubhav/anubhav-config.git"
+         default-label: main
+         timeout: 10
+         clone-on-start: true
+         force-pull: true
            
 encrypt:
   key: "45DBA123ANU9e70BHA737"
