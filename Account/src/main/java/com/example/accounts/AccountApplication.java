@@ -40,6 +40,9 @@ import io.swagger.v3.oas.annotations.info.License;
 public class AccountApplication {
 
 	public static void main(String[] args) {
+		
+		//docker run -p 3307:3306 --name accountsdb -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=accountsdb -d mysql:latest
+		//docker logs accountsdb
 		SpringApplication.run(AccountApplication.class, args);
 	}
 
