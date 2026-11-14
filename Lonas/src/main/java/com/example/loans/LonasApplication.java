@@ -40,6 +40,7 @@ import io.swagger.v3.oas.annotations.info.License;
 public class LonasApplication {
 
 	public static void main(String[] args) {
+		//docker run -p 3308:3306 --name loansdb -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=loansdb -d mysql:latest
 		SpringApplication.run(LonasApplication.class, args);
 	}
 

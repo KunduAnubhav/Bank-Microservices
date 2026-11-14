@@ -42,6 +42,8 @@ import io.swagger.v3.oas.annotations.info.License;
 public class CardsApplication {
 
 	public static void main(String[] args) {
+		
+		//docker run -p 3309:3306 --name cardsdb -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=cardsdb -d mysql:latest
 		SpringApplication.run(CardsApplication.class, args);
 	}
 
